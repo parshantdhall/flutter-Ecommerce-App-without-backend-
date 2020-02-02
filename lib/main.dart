@@ -15,12 +15,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: ThemeData.light().textTheme.copyWith(
-              body1: TextStyle(
+              title: TextStyle(
                 fontFamily: 'Montserrat',
-                fontSize: 16,
+                fontSize: 18,
                 fontWeight: FontWeight.w600,
                 color: Colors.black,
               ),
+              body2: TextStyle(color: Colors.grey, fontSize: 20),
             ),
       ),
       initialRoute: '/',

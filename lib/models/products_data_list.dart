@@ -8,7 +8,7 @@ List<ProductDataModel> productHeadphones = [
   ProductDataModel(
       pTitle: 'Over The ear', pPrice: 89.99, imgUrl: 'https://bit.ly/2S5MX16'),
   ProductDataModel(
-      pTitle: 'Airpods', pPrice: 499.99, imgUrl: 'https://bit.ly/2Ok9g21')
+      pTitle: 'Airpods', pPrice: 499.99, imgUrl: 'https://bit.ly/2UkvuVo')
 ];
 
 List<ProductDataModel> productTshirts = [];
