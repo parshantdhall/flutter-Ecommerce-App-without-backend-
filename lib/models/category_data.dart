@@ -11,6 +11,7 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productHeadphones,
+    tags: ['electronic', 'headphones'],
   ),
   CategoryDataModel(
     id: Uuid().v1(),
@@ -18,6 +19,7 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productWatches,
+    tags: ['electronic', 'watches'],
   ),
   CategoryDataModel(
     id: Uuid().v1(),
@@ -25,6 +27,7 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productShoes,
+    tags: ['shoes', 'fashion'],
   ),
   CategoryDataModel(
     id: Uuid().v1(),
@@ -32,6 +35,7 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1541096088083-65e23ee14e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productPhones,
+    tags: ['electronic', 'phones'],
   ),
   CategoryDataModel(
     id: Uuid().v1(),
@@ -39,6 +43,7 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productTshirts,
+    tags: ['fashion', 'clothing', 'tshirt'],
   ),
   CategoryDataModel(
     id: Uuid().v1(),
@@ -46,6 +51,7 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productJeans,
+    tags: ['fashion', 'clothing', 'jeans'],
   ),
   CategoryDataModel(
     id: Uuid().v1(),
@@ -53,5 +59,6 @@ List<CategoryDataModel> dataSet = [
     imageUrl:
         'https://images.unsplash.com/photo-1547658718-1cdaa0852790?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
     productList: productTv,
+    tags: ['tv', 'electronics'],
   ),
 ];

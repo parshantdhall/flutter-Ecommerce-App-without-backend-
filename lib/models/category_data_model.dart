@@ -8,10 +8,12 @@ class CategoryDataModel {
   final String catTitle;
   final String imageUrl;
   final List<ProductDataModel> productList;
+  final List<String> tags;
   CategoryDataModel({
     @required this.id,
     @required this.catTitle,
     @required this.imageUrl,
     @required this.productList,
+    @required this.tags,
   });
 }
