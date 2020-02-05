@@ -60,14 +60,14 @@ class Product extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       productTitle,
-                      style: Theme.of(context).textTheme.title,
+                      style: Theme.of(context).textTheme.headline6,
                     ),
                     SizedBox(
                       height: 10,
                     ),
                     Text(
                       '\$${productPrice.toString()}',
-                      style: Theme.of(context).textTheme.body2,
+                      style: Theme.of(context).textTheme.bodyText2,
                     ),
                     RaisedButton.icon(
                       color: Colors.lightBlue,

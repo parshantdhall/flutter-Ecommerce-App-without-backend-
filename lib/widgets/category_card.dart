@@ -52,7 +52,7 @@ class CategoryCard extends StatelessWidget {
             Positioned(
               child: Text(
                 title,
-                style: Theme.of(context).textTheme.title,
+                style: Theme.of(context).textTheme.headline6,
               ),
               bottom: 5,
               right: 10,
