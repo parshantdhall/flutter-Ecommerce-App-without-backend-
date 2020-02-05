@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Grid Practice',
+      title: 'Ecommerce App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: ThemeData.light().textTheme.copyWith(
