@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 // Importing all the pages....
 import './category_page.dart';
 import './fav_category_page.dart';
+// importing widgets
+import '../widgets/main_drawer.dart';
 
 class TabsPage extends StatefulWidget {
   @override
@@ -43,37 +45,7 @@ class _TabsPageState extends State<TabsPage> {
         onTap: onItemTap,
         iconSize: 20,
       ),
-      drawer: Drawer(
-        child: ListView(
-          children: <Widget>[
-            DrawerHeader(
-              child: Center(
-                child: Text(
-                  "This is the header",
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              decoration: BoxDecoration(
-                color: Theme.of(context).primaryColor,
-              ),
-            ),
-            ListTile(
-              title: Text("Menu"),
-              onTap: () {
-                Navigator.of(context).pop();
-              },
-            ),
-            ListTile(
-              title: Text("Filter"),
-              onTap: () {
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        ),
-      ),
+      drawer: MainDrawer(),
       body: Center(
         child: _pageList[_selectedIndex],
       ),

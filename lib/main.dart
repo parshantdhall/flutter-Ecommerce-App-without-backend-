@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 // Importing pages
 import './pages/products_page.dart';
 import './pages/tabs_page.dart';
+import './pages/filters.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => TabsPage(),
         ProductsPage.pageUrl: (context) => ProductsPage(),
+        FilterPage.pageUrl: (context) => FilterPage(),
       },
     );
   }
